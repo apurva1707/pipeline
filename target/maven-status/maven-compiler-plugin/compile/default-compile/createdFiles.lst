@@ -1,0 +1,4 @@
+conf/Module.class
+conf/Routes.class
+conf/Lifecycle.class
+controllers/ApplicationController.class
