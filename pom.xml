@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>demopipeline2</artifactId>
 	<groupId>12</groupId>
-	<version>1.0 snapshot </version>
+	<version>1.0 </version>
 	<packaging>jar</packaging>
 	<url>https://mangoo.io</url>
 	<properties>
@@ -91,6 +91,12 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<distributionManagement>
+  <repository>
+    <id>build_pipeline</id>
+    <url>http://localhost:8081/content/repositories/build_pipeline</url>
+  </repository>
+</distributionManagement>
 	</build>
 	<dependencies>
 		<dependency>
