@@ -92,11 +92,11 @@
 			</plugin>
 		</plugins>
 		<distributionManagement>
-  <repository>
-    <id>pipeline_build1</id>
-    <url>http://localhost:8081/content/repositories/pipeline_build1</url>
-  </repository>
-</distributionManagement>
+                        <repository>
+                                <id>pipeline_build1</id>
+                                        <url>http://localhost:8081/content/repositories/pipeline_build1</url>
+                        </repository>
+                </distributionManagement>
 	</build>
 	<dependencies>
 		<dependency>
