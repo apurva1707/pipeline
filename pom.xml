@@ -93,7 +93,7 @@
 		</plugins>
 		<distributionManagement>
   <repository>
-    <id>build_pipeline</id>
+    <id>pipelin_build1e</id>
     <url>http://localhost:8081/content/repositories/build_pipeline</url>
   </repository>
 </distributionManagement>
